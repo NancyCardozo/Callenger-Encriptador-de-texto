@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;700&display=swap');
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    background: #F3F5FC;
+}
+
+/*------------------Estilos Header-------------------*/
+header {
+   
+    background-color: rgb(174, 172, 194);
+    width: 100%;
+    height: 60px;
+    /*color: chocolate;*/
+    padding-left: 10px;
+    border-bottom: rgb(187, 166, 244) 1px solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logoImg{
+    margin: 50px;
+}
+
+h1 {
+    text-shadow: 0 0 5px #0eb4bc;
+    color: #4973d6;
+}
+
+
+h1:hover {
+    color: #FFFFFF;
+}
+
+#div-icon {
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    display: flex;
+}
+
+.icon-git {
+    margin-right: 20px;
+    width: 35px;
+    transform: scale(1.05);
+    /*text-shadow: 0 0 5px #171818;*/
+}
+
+.icon-git:hover {
+    width: 40px;
+    transform: scale(1.05);
+    border-radius: 10px;
+    border: #1c120b 1px solid;
+
+}
+
+
+/*------------------Estilos Main-------------------*/
+.main {
+    width: 100%;
+    height: 700px;
+    
+    /*background-color: rgb(53, 54, 58);*/
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: white 1px solid;
+}
+
+
+/*------------------ Estilos sections -------------------*/
+section {
+    height: 90%;
+    border-radius: 20px;
+    padding-right: 10px;
+
+}
+
+/*------------------ Estilos sections 1 -------------------*/
+.seccion-uno {
+    width: 60%;
+    /*background-color: rgb(83, 83, 83);*/
+    margin-left: 20px;
+    margin-top: 20px;
+   /* -webkit-box-shadow: 0px 5px 26px 4px rgba(233, 236, 243, 0.66);*/
+
+}
+
+.div-textArea {
+    height: 80%;
+
+}
+
+#textArea {
+    width: 80%;
+    height: 70%;
+    display: block;
+    resize: none;
+    margin: auto;
+    /*background-color:  rgb(39, 39, 39);*/
+    background-color: rgb(225, 224, 232);
+    color:#2d2828;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#textArea:hover{
+    border-color: 2px solid #d2691e;
+    color: #4973d6;
+    transform: scale(1.01);
+}
+
+
+
+.botones {
+
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+#encriptar {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    /*background-color: rgb(39, 39, 39);*/
+    background-color: rgb(132, 125, 199);
+    color: #4973d6;
+    font-weight: 600;
+
+}
+
+#encriptar:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+#desencriptar {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    /*background-color: rgb(39, 39, 39);*/
+    background-color: rgb(174, 172, 194);
+    color: #4973d6;
+    font-weight: 600;
+
+}
+
+#desencriptar:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+#limpiar {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    /*background-color: rgb(39, 39, 39);*/
+    background-color: rgb(174, 172, 194);
+    color: #4973d6;
+    font-weight: 600;
+}
+
+#limpiar:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+
+/*------------------ Estilos sections Imagen-------------------*/
+
+.seccion-imagen {
+    width: 30%;
+   /* background-color: rgb(83, 83, 83);*/
+   background-color: rgb(174, 172, 194);
+    margin-right: 20px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 5px 26px 4px rgba(233, 236, 243, 0.66);
+
+}
+
+.conten-imagen {
+    padding: 25px 15px 15px 25px;
+
+}
+
+#imagen {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+#imagen:hover{
+    transform: scale(1.05);
+}
+
+.parrafo {
+    text-align: center;
+    color: #4973d6;
+    padding: 10px;
+  }
+
+.parrafo p {
+    margin: 5px;
+}
+
+#h3-encontrado:hover{
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+
+#textoDesencriptado {
+
+    width: 80%;
+    height: 5%;
+    resize: none;
+    margin: auto;
+    display: flex-grow;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color:rgb(38, 36, 36);
+    /*background-color: rgb(39, 39, 39);*/
+    background-color: rgb(225, 224, 232);
+}
+
+#textoDesencriptado:hover{
+    transform: scale(1.01)
+}
+
+
+
+#boton-copiar {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    /* background-color: #2C3333; */
+    background-color: rgb(132, 125, 199);
+    color: #4973d6;
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 35%;
+    font-weight: 600;
+
+}
+
+#boton-copiar:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+
+/*------------------ Estilos Footer -------------------*/
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(174, 172, 194);
+    color: rgb(47, 43, 43);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    box-sizing: content-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #d2691e;
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+
+
+a:hover {
+    text-shadow: 0 0;
+    transform: scale(1.05);
+    font-size: 21px;
+}
+
+/*------ Media querys -----------*/
+@media screen and (min-width:360px) and (max-width:600px) {
+
+
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .seccion-imagen {
+        width: 90%;
+        height: 40%;
+        margin-left: 14px;
+
+    }
+
+    .botones {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .boton-copiar {
+        width: 40px;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+
+    .seccion-uno {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conten-imagen img {
+        height: 100%;
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+
+    }
+}
